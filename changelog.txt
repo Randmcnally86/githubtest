@@ -3,28 +3,307 @@ Changelog
 
 Notes Notes
 For if the changelog needs changed.
-<--! changing changelog again.  next version:newest to top.  oldest to bottom.  next version after that: new format, enforced retroactively.  012817-->
-<--! may remove large chunks to Devlog later.  012817-->
+<!-- changing changelog again.  next version:newest to top.  oldest to bottom.  <!-- done  012817--> next version after that: new format, enforced retroactively.  012817-->
+<!-- may remove large chunks to Devlog later.  012817--><!--  EDIT will fold everything I can into new format.  move everything else to notes.  the changelog should contain only requests and changes.  this include everything from version 0.01d and earlier.  012817-->
 
-version 0.0 
-Original notes
-Mainly to help define scope of project, identify things to take apart (Inspiration), get used to documentation, notes, version control, and saving all changes frequently.  It has many typos.  And lots of rambly poorly written bits.  Somewhere around version 0.01z I hope to know how hard the systems described here might be to implement.  Up till then, I will be concentrating on learning tools, languages (spec css html js), how to utilize reddit, google analytics, wordpress (hosting), GIT, etc.  There should be nothing but a html frame and references to stylesheet and js in 0.0 files.
+
+0.01g 
+Request:3
+Area/System:Changelog, Notes Notes
+Date:012817 1826
+Implemented:Approved for next version
+What:The new change system makes the Notes Notes redundant.
+Reason:Redundant code.
+Result:Less redundant code.
+Importance:1 minimal
+Usefulness:2 minor
+Effect:2 minor
+Changes:Kill the Notes Notes section of the changelog.
+Description:Cleanup
+
+Change:4
+Area/System:Changelog
+Date:012817 1745
+Implemented:Now
+What:Changelog to this format
+Reason:Wanted to.  Closes Request:1
+Result:This format
+Importance:1 minimal
+Usefulness:2 minor
+Effect:6 better
+Changes:This format.  
+Description:Easier search.  Easier to read Requests and Changes.  Rateable.
+
+Change:8
+Area/System:Changelog
+Date:012817 1809
+Implemented:Yes
+What:Added keep and remove to notes markers to changelog.
+Reason:Cleanup.
+Result:More mess. Documented mess.
+Importance:10 necessary
+Usefulness:8 great
+Effect:2 poor
+Changes:Lots of new notes.  Will remove them next version.  
+Description:Needed to document where all the excized elements of the changelog will be going.  As well as what those elements are.
+
+Change:9
+Area/System:notes.txt, Non game files
+Date:012817 1813
+Implemented:Yes
+What:New file for development notes/blog notes.txt
+Reason:Cleanup.  Needed one.
+Result:Have one.  
+Importance:10 necessary
+Usefulness:9 extreme
+Effect:1 minimal now 8 great next version
+Changes:New file notes.txt
+Description:For all the stuff in the changelog that doesn't fit this format.  Cleanup takes place next version.  Documented here.
+
+
+
+0.01h 012817 1735
+Change:2
+Area/System:Changelog
+Date:012817 1702
+Implemented:Now
+What:Redid changelog to go from newest to oldest.
+Reason:Less scrolling.  This closes Request:2
+Result:Less scrolling.
+Importance:1 minor
+Usefulness:2 minor
+Effect:3 improved
+Changes:Newest version first.  Version 0.0 at bottom
+Description:See changes
+
+Change:3
+Area/System:Changelog
+Date:012817 1731
+Implemented:Now
+What:Macro to write the fields for a change.
+Reason:Ease of use, uniformity, tired of typing :
+Result:Have macro
+Importance:2 minor
+Usefulness:3 useful
+Effect:5 good
+Changes:New macro to run fields for changes.
+Description:Alt + Ctrl + z = 
+
+
+
+0.01f 012717
+Change:5
+Area/System:Systems, non game find
+Date:012817 1752
+Implemented:Yes
+What:File for Systems.  
+Reason:Needed one.
+Result:Have one.
+Importance:10 necessary
+Usefulness:8 great
+Effect:7 very useful
+Changes:New file Systems.txt
+Description:File to describe what metrics or systems I intend to implement.  Think research.
+
+Change:6
+Area/System:components, non game files
+Date:012817 1756
+Implemented:Yes
+What:File for components
+Reason:Needed one.
+Result:Have one.
+Importance:10 necessary
+Usefulness:8 great
+Effect:7 very useful
+Changes:New file components.txt
+Description:File to describe components of systems.  Think resources.
+
+Change:7
+Area/System:Gameplay, New content
+Date:012817 1802
+Implemented:Yes
+What:New content
+Reason:Following tutorial, Wanted basic resources for thought system
+Result:Have 3 new buttons
+Importance:2 learning
+Usefulness:0 negligable
+Effect:1 minor
+Changes:Added buttons, vars, and functions for resources in thought system.  Debugged.
+Description:I had a Texas-do-Nothing resource in code.  Now the timer turns four of them.  And you can click.  If you want.
+
+<!-- notes  -->
+Learning Notes
+Tried out GitHub and maybe GIT.  Figured out how to add and remove files from a build.  Not much more.
+Asked questions on Reddit.  Got some useful feedback.  Apparently HTML and CSS are not programing languages.  
+Looked at Epitath.  I can search for stuff in there, but I can't *read* anything.  So far beyond me.  For now.
+Working w3schools tutorials starting with HTML.  Easy to understand.  I need to get a cheatsheet/manual that I can search easily.  I don't even know most of the elements.
+Don't know what's most important.  Brainstorming, Designing, Learning, Writing, Testing, or Fixing.  
+
+Dev Notes
+Might split Build Notes a bit more.  Major Minor Work Plan etc.
+LostSouls has a nice changelog system.  Don't think I need something that fancy.  Yet.
+
+Build Notes
+
+Plan
+make outline/layout/example/help for systems list.  e.g. what goes where
+make outline for components.  e.g. 
+reorganize changelog so most recent changes are newest. Do this next version.   
+Number changes.  Area/System.  What.  Reason.  Result.  Importance.  Usefulness.  Effect.  Description.  Date.  Implemented.  Do this in two versions.
+start lines in changelog with tags like Major, Minor,  Work, Info.  
+
+Major
+
+Added Systems list.txt
+Added components.txt
+Test for tags in changelog.
+Added Readme.md
+
+Work
+<!-- keep -->
+Request:1          
+Area:Changelog
+Date:012817 1100
+Implemented: Future
+What:Numbering/tags/area/reason/result/importance/usefulness/effect/changes/description/date/implemented.
+Reason:Need it/Want it   
+Result:Have Searchable changelog.  After a fashion.   
+Importance:Minor 3
+Usefulness:Major 8
+Effect:Major 7
+Changes:Wanted a way to easily monitor changes.  And search.  Will make retroactive in two versions. 
+Description: See example Change 1, Change 2
+
+Request:2
+Area:Changelog
+Date:012817 1102
+Implemented:Future
+What:Reorganize changelog so newest changes are at the top.
+Reason:Didn't want to scroll to the bottom.
+Result:Don't have to.
+Importance:Negligable 1
+Usefulness:Very 6
+Effect:Minor 3
+Changes:Now the top is at the bottom.  And the bottom is at the top.  Will do next version.
+Description:Not yet implemented.
+
+Change:1
+Area:Documentation
+Date:012817 1157
+Implemented:Now
+What:Added Readme.md to files
+Reason:Lots of GitHub projects have them, It's what I look at first.
+Result:Have one.
+Importance:Unknown 0
+Usefulness:Unknown 0
+Effect:Unknown 0
+Changes:Created Readme.md. Tells people to check changelog.txt and filelist.txt.
+Description:Have Readme.md
+<!-- notes  -->
+Added buttons for resources in html.
+Added display for resources in html.
+Added onclick and variables for resources in js.  
+Added timer entries for resources in js.  
+First debug.  Syntax errors
+Second debug.  Named some sections useful_thoughts and some useful_ideas.  Now useful_thoughts.
+Third debug.  Changed increment number for Thoughts resource from .5 to 1/2.  No joy.
+Fourth debug.  Increment to 4.  No joy.
+Fifth debug.  Increment to 3.  Really fixed _thoughts vs _ideas.
+Sixth debug.  Back to .5.  Works.  Off to read about arrays and dice.
+
+
+
+0.01e 012717
+<!--keep  -->
+Change:10
+Area/System:Gameplay, New content
+Date:012817 1820
+Implemented:Yes
+What:Thoughts button, var, timer
+Reason:Following tutorial.  Most basic resource in thought system.
+Result:Have it.
+Importance:2 learning
+Usefulness:6 useful
+Effect:3 small
+Changes:Added Thoughts button, var and function.  Added timer.  Debugged.
+Description:I have built a Texas-do-Nothing in code.  And you can click.  If you want to.
+<!-- notes  -->
+Learning notes
+Something as small as a capitol d can screw your code.  Examples rule.  
+
+Dev notes
+Debugging by sight haaard.  Might look into syntax fixer thing.  
+For now keep doing by hand until learned.  Or get lazy.  Copy and paste ok.  Must note reusable code sections, e.g. button.
+Need to change increment to add or subtract based on a range.  Not a fixed number.  Maybe dice based.
+Will do next version by hand as well.  So I can see mistakes easier.  
+NV notes
+Plan for next version is more buttons, numbers, etc.  Everything I want to put in the thought inventory system eventualy.  
+Not research.  
+For the record that is thoughts, concepts (for flavor), useful thoughts (tied to concepts or ideas), ideas.  
+Also want to run advance increment by range.  Maybe dice.  
+Want timer to start much slower.  Get faster at spec concepts for a while.  Then enter math.
+
+Build notes
+Started with page that displayed button with button code.
+Got page to display 0.  
+Changed button code to display the word Think.
+Fixed various things.  Added js to run timer.  Display of resource thought still broke.
+Looked in console.  document.getElementByID is not a function.  
+Went back to tutorial.  Double checked everything else.  Changed D in ID to d.  
+Removed timer.  
+It works to update resource count.  Added timer.
+I have built a Texas do nothing in code.  It just keeps going up. 
+Errors 5.  Mostly syntax.  Missing end "> stuff not included in <> of element.
+
+
+
+0.01d 012717
+Learning notes
+zips may not be the best way to do version control.  Look into GIT.  
+
+Dev notes
+This version is also pointless.  Except to clean up the change log.  Done deliberately.  Final one.  
+
+Build notes
+No new content.  Just housekeeping.  
+Kept Notes Notes section in case I need to make future drastic changes to the changelog.
+Decapitalized Changelog.txt
+Final clean of changelog.txt.  Should be only changes.  Not game design, reference material, or other unrelated items.  
+Added date to this version.  Other stuff done yesterday.  
+Back to the future of incremental programing.  
+
+
+
+0.01c
+Learning notes
+This could have been done easier.  But I think I got the point of version control.  And documenting changes.
 
 Dev notes
 
-Purpose: To build an incremental about systems, from knowing nothing to ?trancendence?, ?singularity?, ?something else?
+Build notes
+No new content.  Just housekeeping.  
+Major changes and removals from changelog.  See 0.01b for more details.
+Moved lots of stuff to external files.  
+New files in build.  gamedsgn.txt and getthese.txt
+Updated filelist.txt
 
+
+
+0.01b
 Learning notes
+Must fiiiiix known miiiistakes.  Braiiiiins!
 
-running down through dmstarks tutorial http://dhmholley.co.uk/incrementals.html
-also trying to get in habit of documenting changes, and version control
-Not knowing anything about the latter 2 i am keeping track (loosely) in this changelog until I figure out how to make notes elseware.
-I know a bit about html, a tad about css, and almost nothing about js.  
+Dev notes
+This version is pointless.  Except to clean up the change log.  Done deliberately.  
 
 Build notes
+No new content.  Just housekeeping.  
+Change log should contain only changes.  
+Lots of stuff moved to gamedsgn.txt. Will be deleted from next version changelog.  As well as notes
+Lots of notes kept.  Will be deleted next version.  
+Some stuff deleted.  Notes will be deleted next version.
+Removed keep notes
 
-css and js are blank placeholder files
-html is base html, head, body, plus css and js calls
 
 
 0.01a
@@ -62,167 +341,23 @@ Found good tags for nonexecutable code.  Appending now.  Will sort and clean lat
 Must clean and note work.  Next few versions of changelog are to get it down to an actual changelog.  Excuse the interruption.
 
 
-0.01b
-Learning notes
-Must fiiiiix known miiiistakes.  Braiiiiins!
 
-Dev notes
-This version is pointless.  Except to clean up the change log.  Done deliberately.  
-
-Build notes
-No new content.  Just housekeeping.  
-Change log should contain only changes.  
-Lots of stuff moved to gamedsgn.txt. Will be deleted from next version changelog.  As well as notes
-Lots of notes kept.  Will be deleted next version.  
-Some stuff deleted.  Notes will be deleted next version.
-Removed keep notes
-
-
-0.01c
-Learning notes
-This could have been done easier.  But I think I got the point of version control.  And documenting changes.
+version 0.0 
+Original notes
+Mainly to help define scope of project, identify things to take apart (Inspiration), get used to documentation, notes, version control, and saving all changes frequently.  It has many typos.  And lots of rambly poorly written bits.  Somewhere around version 0.01z I hope to know how hard the systems described here might be to implement.  Up till then, I will be concentrating on learning tools, languages (spec css html js), how to utilize reddit, google analytics, wordpress (hosting), GIT, etc.  There should be nothing but a html frame and references to stylesheet and js in 0.0 files.
 
 Dev notes
 
+Purpose: To build an incremental about systems, from knowing nothing to ?trancendence?, ?singularity?, ?something else?
 
-Build notes
-No new content.  Just housekeeping.  
-Major changes and removals from changelog.  See 0.01b for more details.
-Moved lots of stuff to external files.  
-New files in build.  gamedsgn.txt and getthese.txt
-Updated filelist.txt
-
-
-
-
-0.01d 012717
 Learning notes
-zips may not be the best way to do version control.  Look into GIT.  
 
-Dev notes
-This version is also pointless.  Except to clean up the change log.  Done deliberately.  Final one.  
-
-Build notes
-No new content.  Just housekeeping.  
-Kept Notes Notes section in case I need to make future drastic changes to the changelog.
-Decapitalized Changelog.txt
-Final clean of changelog.txt.  Should be only changes.  Not game design, reference material, or other unrelated items.  
-Added date to this version.  Other stuff done yesterday.  
-Back to the future of incremental programing.  
-
-
-0.01e 012717
-Learning notes
-Something as small as a capitol d can screw your code.  Examples rule.  
-
-Dev notes
-Debugging by sight haaard.  Might look into syntax fixer thing.  
-For now keep doing by hand until learned.  Or get lazy.  Copy and paste ok.  Must note reusable code sections, e.g. button.
-Need to change increment to add or subtract based on a range.  Not a fixed number.  Maybe dice based.
-Will do next version by hand as well.  So I can see mistakes easier.  
-NV notes
-Plan for next version is more buttons, numbers, etc.  Everything I want to put in the thought inventory system eventualy.  
-Not research.  
-For the record that is thoughts, concepts (for flavor), useful thoughts (tied to concepts or ideas), ideas.  
-Also want to run advance increment by range.  Maybe dice.  
-Want timer to start much slower.  Get faster at spec concepts for a while.  Then enter math.
-
+running down through dmstarks tutorial http://dhmholley.co.uk/incrementals.html
+also trying to get in habit of documenting changes, and version control
+Not knowing anything about the latter 2 i am keeping track (loosely) in this changelog until I figure out how to make notes elseware.
+I know a bit about html, a tad about css, and almost nothing about js.  
 
 Build notes
-Started with page that displayed button with button code.
-Got page to display 0.  
-Changed button code to display the word Think.
-Fixed various things.  Added js to run timer.  Display of resource thought still broke.
-Looked in console.  document.getElementByID is not a function.  
-Went back to tutorial.  Double checked everything else.  Changed D in ID to d.  
-Removed timer.  
-It works to update resource count.  Added timer.
-I have built a Texas do nothing in code.  It just keeps going up. 
-Errors 5.  Mostly syntax.  Missing end "> stuff not included in <> of element.
 
-
-
-0.01f 012717-
-
-Learning Notes
-Tried out GitHub and maybe GIT.  Figured out how to add and remove files from a build.  Not much more.
-Asked questions on Reddit.  Got some useful feedback.  Apparently HTML and CSS are not programing languages.  
-Looked at Epitath.  I can search for stuff in there, but I can't *read* anything.  So far beyond me.  For now.
-Working w3schools tutorials starting with HTML.  Easy to understand.  I need to get a cheatsheet/manual that I can search easily.  I don't even know most of the elements.
-Don't know what's most important.  Brainstorming, Designing, Learning, Writing, Testing, or Fixing.  
-
-
-
-
-Dev Notes
-Might split Build Notes a bit more.  Major Minor Work Plan etc.
-LostSouls has a nice changelog system.  Don't think I need something that fancy.  Yet.
-
-Build Notes
-
-Plan
-make outline/layout/example/help for systems list.  e.g. what goes where
-make outline for components.  e.g. 
-reorganize changelog so most recent changes are newest. Do this next version.   
-Number changes.  Area/System.  What.  Reason.  Result.  Importance.  Usefulness.  Effect.  Description.  Date.  Implemented.  Do this in two versions.
-start lines in changelog with tags like Major, Minor,  Work, Info.  
-
-Major
-Added Systems list.txt
-Added components.txt
-Test for tags in changelog.
-Added Readme.md
-
-Work
-
-Change:1          
-Area:Changelog
-Date:012817 1100
-Implemented: Future
-What:Numbering/tags/area/reason/result/importance/usefulness/effect/changes/description/date/implemented.
-Reason:Need it/Want it   
-Result:Have Searchable changelog.  After a fashion.   
-Importance:Minor 3
-Usefulness:Major 8
-Effect:Major 7
-Changes:Wanted a way to easily monitor changes.  And search.  Will make retroactive in two versions. 
-Description: See example Change 1, Change 2
-
-Change:2
-Area:Changelog
-Date:012817 1102
-Implemented:Future
-What:Reorganize changelog so newest changes are at the top.
-Reason:Didn't want to scroll to the bottom.
-Result:Don't have to.
-Importance:Negligable 1
-Usefulness:Very 6
-Effect:Minor 3
-Changes:Now the top is at the bottom.  And the bottom is at the top.  Will do next version.
-Description:Not yet implemented.
-
-Change:3
-Area:Documentation
-Date:012817 1157
-Implemented:Now
-What:Added Readme.md to files
-Reason:Lots of GitHub projects have them, It's what I look at first.
-Result:Have one.
-Importance:Unknown 0
-Usefulness:Unknown 0
-Effect:Unknown 0
-Changes:Created Readme.md. Tells people to check changelog.txt and filelist.txt.
-Description:Have Readme.md
-
-
-
-Added buttons for resources in html.
-Added display for resources in html.
-Added onclick and variables for resources in js.  
-Added timer entries for resources in js.  
-First debug.  Syntax errors
-Second debug.  Named some sections useful_thoughts and some useful_ideas.  Now useful_thoughts.
-Third debug.  Changed increment number for Thoughts resource from .5 to 1/2.  No joy.
-Fourth debug.  Increment to 4.  No joy.
-Fifth debug.  Increment to 3.  Really fixed _thoughts vs _ideas.
-Sixth debug.  Back to .5.  Works.  Off to read about arrays and dice.
+css and js are blank placeholder files
+html is base html, head, body, plus css and js calls
