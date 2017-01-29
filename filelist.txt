@@ -3,7 +3,7 @@
 
  Directory of C:\Downloads\Something happens
 
-01/28/2017  06:34 PM            13,616 changelog.txt     Changelog
+01/28/2017  07:01 PM             5,614 changelog.txt     Changelog
 01/28/2017  10:20 AM                 0 components.txt    Outline for components
 01/26/2017  10:16 PM               486 enduser.txt	 Current and future html layout
 01/27/2017  12:06 AM                 0 filelist.txt      Files and contents courtesy DIR
@@ -13,7 +13,7 @@
 01/27/2017  09:32 AM             2,737 index.html        Html for game.  Required
 01/26/2017  01:56 PM                 0 interface.css     CSS for game.  Required
 01/27/2017  09:40 AM               892 main.js           JS for game.  Required
-01/28/2017  06:36 PM                 0 notes.txt         Game notes from changelog
+01/28/2017  06:53 PM             7,991 notes.txt         Game notes from changelog
 01/26/2017  10:16 PM               266 outline.txt       Current and future JS layout
 01/28/2017  12:24 PM               272 Readme.md         For GitHub
 01/27/2017  01:49 PM             2,266 something happens Notepad++ workspace
